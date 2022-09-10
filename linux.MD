@@ -1,3 +1,10 @@
+# Drive & Disk
+
+## File Table & Partition on Physical Disk
+
+### gdisk utility
+`sudo gdisk`
+
 # Services
 
 ## Service Status
