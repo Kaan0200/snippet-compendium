@@ -1,9 +1,20 @@
-# Drive & Disk
+# Storage
 
 ## File Table & Partition on Physical Disk
 
-### gdisk utility
-`sudo gdisk`
+### fdisk for readouts
+`sudo fdisk -l`
+
+### gdisk for friendly table & partition management
+`sudo gdisk /dev/diskname`
+
+##  Volume Management
+
+### pvdisplay - put physical volumns
+
+vgdisplay - volumne group
+
+lv - logical volumne group
 
 # Services
 
