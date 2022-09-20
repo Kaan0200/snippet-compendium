@@ -1,2 +1,2 @@
 ## Domain Naming
-`nslookup name-to-resolve ?who-to-resolve against`
+`nslookup [name-to-resolve] [?ip-resolve-against]`
