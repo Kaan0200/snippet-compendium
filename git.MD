@@ -29,7 +29,8 @@ _Step backwards thru commits (#)_
 ## Between Branches
 
 _Pull file from one branch to another_
-`git restore --source from-branch -- file.txt`
+`git restore --source [from-branch] -- [file.txt]`
+`git checkout [from-branch] -- [file.txt]`
 
 
 
