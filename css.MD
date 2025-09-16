@@ -1,14 +1,17 @@
 
 ## Exact Floating Center
 
-[CSS Trick Article](https://css-tricks.com/quick-css-trick-how-to-center-an-object-exactly-in-the-center/)
-
 ```css
 .class {
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
 }
 ```
+
 
